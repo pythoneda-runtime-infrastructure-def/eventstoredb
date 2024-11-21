@@ -83,7 +83,7 @@
         "type": "github"
       }
     },
-    "pythoneda-shared-runtime-infrastructure-eventstoredb-events": {
+    "pythoneda-shared-runtime-infra-eventstoredb-events": {
       "inputs": {
         "flake-utils": [
           "flake-utils"
@@ -119,7 +119,7 @@
         "nixos": "nixos",
         "pythoneda-shared-pythonlang-banner": "pythoneda-shared-pythonlang-banner",
         "pythoneda-shared-pythonlang-domain": "pythoneda-shared-pythonlang-domain",
-        "pythoneda-shared-runtime-infrastructure-eventstoredb-events": "pythoneda-shared-runtime-infrastructure-eventstoredb-events"
+        "pythoneda-shared-runtime-infra-eventstoredb-events": "pythoneda-shared-runtime-infra-eventstoredb-events"
       }
     }
   },
