@@ -31,7 +31,7 @@
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.86";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.87";
     };
     pythoneda-shared-runtime-infra-eventstoredb-events = {
       inputs.flake-utils.follows = "flake-utils";
@@ -41,7 +41,7 @@
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
       url =
-        "github:pythoneda-shared-runtime-infra-def/eventstoredb-events/0.0.10";
+        "github:pythoneda-shared-runtime-infra-def/eventstoredb-events/0.0.11";
     };
   };
   outputs = inputs:
@@ -50,8 +50,8 @@
       let
         org = "pythoneda-runtime-infrastructure";
         repo = "eventstoredb";
-        version = "0.0.1";
-        sha256 = "0jf42dq19r5vcf5rh0ksr8fwaichzk2nkbdf4r6w3jsh6gr4sl8h";
+        version = "0.0.2";
+        sha256 = "1cqxfn5g5anpwnf7djls8qy7w1xm47s1nx5riss0kkzacx9653s2";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.runtime.infrastructure.eventstoredb";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
